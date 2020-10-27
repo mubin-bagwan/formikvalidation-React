@@ -1,0 +1,25 @@
+form{
+    margin-left: 450px;
+    /* margin-right: 450px; */
+    margin-top: 45px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    display: block;
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background-color: #fff;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
