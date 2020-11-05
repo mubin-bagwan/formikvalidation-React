@@ -115,8 +115,7 @@ const useStyles = makeStyles((theme) => ({
                                 autoFocus={true}
                                 helperText= {errors.fName ? errors.fName.message :""}
                                 error={errors.fName ? true:false}
-                                inputRef={register ({ required: "required", maxLength: 10 })}
-                               
+                                inputRef={register ({ required: "required", maxLength: 10 })}                   
                             />
 
                         {/* {errors.fName && <div>This field is required</div>} */}
@@ -271,3 +270,5 @@ const useStyles = makeStyles((theme) => ({
   }
 
   export default Hooksvalidation;
+
+
