@@ -54,6 +54,7 @@ const columns = [
     search:{
         marginTop:"50px",
         marginBottom:"50px",
+        textAlign:"center"
     }
   });
   
@@ -80,7 +81,7 @@ export default function ServerData(){
         .then((response)=>response.json())
         .then((json)=>setData(json))
     },[])
-    
+
     // console.log(q);
 
     function search(rows){
@@ -93,13 +94,13 @@ export default function ServerData(){
         )
     }
 
-
 return(
     <Paper className={classes.root}>
     <TextField 
         className={classes.search}
         id="outlined-basic" 
         label="Search Here" 
+        placeholder="Search For Name"
         variant="outlined"
         fullWidth
         value={q}
